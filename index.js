@@ -1,10 +1,10 @@
-const cheerio = require('cheerio');
-const fs = require('fs');
+/*
 
-const axios =require('axios');
+	1. 所有访问使用fiddler代理
+	2. 使用命令执行获取某网站的数据，如： 
+	
+	node chemicalbook
 
-axios.get('http://www.chemicalbook.com/CASDetailList_0.htm').then(response => {
-	// fs.writeFile('1.html', JSON.stringify(response.data), e => {
-	// 	console.info(e);
-	// });
-});
+	node chemnet
+
+ */
